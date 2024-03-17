@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1676795389
-ModificationTime: 1710612750
+ModificationTime: 1710709359
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -46,6 +46,7 @@ OS2UnicodeRanges: 00000000.00000000.00000000.00000000
 Lookup: 6 0 0 "OneQuote" { "OneQuote subtable"  } ['liga' ('grek' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 1" { "Single Substitution lookup 1 subtable"  } []
 Lookup: 4 0 1 "FlipCores" { "FlipCores subtable"  } ['liga' ('grek' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 1 "VowelLigature" { "VowelLigature subtable"  } ['liga' ('grek' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "OneQuote subtable" 0 0 0 1
@@ -56,17 +57,18 @@ ChainSub2: coverage "OneQuote subtable" 0 0 0 1
 EndFPST
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 15 6
+WinInfo: 30 15 6
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Tertiary_mkmk"""  "Tertiary_down"""  "Tertiary_up"""  "Diacritic_mkmk"""  "Extension_mkmk"""  "Diacritic_right"""  "Diacritic_left"""  "Extension_down"""  "Extension_up"""  "Perspective"""  "Configurations"""  "Diacritic_down"""  "Diacritic_up"""  "Anchor-1""" 
-BeginChars: 65931 94
+BeginChars: 65586 110
 
 StartChar: RPV.VAR
 Encoding: 65536 -1 0
@@ -179,7 +181,6 @@ SplineSet
  256 128 l 1
  256 0 l 1
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: d
@@ -756,7 +757,6 @@ SplineSet
  768 640 l 1
  768 512 l 1
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: t
@@ -1547,7 +1547,7 @@ Validated: 1
 EndChar
 
 StartChar: b.flip
-Encoding: 65555 -1 33
+Encoding: 65537 -1 33
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -1602,7 +1602,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: c.flip
-Encoding: 65556 -1 34
+Encoding: 65538 -1 34
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -1643,7 +1643,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: d.flip
-Encoding: 65557 -1 35
+Encoding: 65539 -1 35
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -1686,7 +1686,7 @@ LCarets2: 1 1024
 EndChar
 
 StartChar: f.flip
-Encoding: 65558 -1 36
+Encoding: 65540 -1 36
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -1734,7 +1734,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: g.flip
-Encoding: 65559 -1 37
+Encoding: 65541 -1 37
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -1794,7 +1794,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: h.flip
-Encoding: 65560 -1 38
+Encoding: 65542 -1 38
 Width: 896
 Flags: HW
 LayerCount: 2
@@ -1833,13 +1833,12 @@ SplineSet
  256 384 l 1
  256 512 l 1
 EndSplineSet
-Validated: 5
 Ligature2: "FlipCores subtable" h quotesingle
 LCarets2: 1 112
 EndChar
 
 StartChar: j.flip
-Encoding: 65561 -1 39
+Encoding: 65543 -1 39
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -1892,7 +1891,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: k.flip
-Encoding: 65562 -1 40
+Encoding: 65544 -1 40
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -1948,7 +1947,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: l.flip
-Encoding: 65563 -1 41
+Encoding: 65545 -1 41
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -2003,7 +2002,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: m.flip
-Encoding: 65564 -1 42
+Encoding: 65546 -1 42
 Width: 768
 Flags: HW
 LayerCount: 2
@@ -2042,7 +2041,7 @@ LCarets2: 1 96
 EndChar
 
 StartChar: n.flip
-Encoding: 65565 -1 43
+Encoding: 65547 -1 43
 Width: 768
 Flags: HW
 LayerCount: 2
@@ -2086,7 +2085,7 @@ LCarets2: 1 96
 EndChar
 
 StartChar: p.flip
-Encoding: 65566 -1 44
+Encoding: 65548 -1 44
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -2136,7 +2135,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: r.flip
-Encoding: 65567 -1 45
+Encoding: 65549 -1 45
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -2195,7 +2194,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: s.flip
-Encoding: 65568 -1 46
+Encoding: 65550 -1 46
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -2243,7 +2242,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: t.flip
-Encoding: 65569 -1 47
+Encoding: 65551 -1 47
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -2284,7 +2283,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: v.flip
-Encoding: 65570 -1 48
+Encoding: 65552 -1 48
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -2337,7 +2336,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: x.flip
-Encoding: 65571 -1 49
+Encoding: 65553 -1 49
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -2393,7 +2392,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: z.flip
-Encoding: 65572 -1 50
+Encoding: 65554 -1 50
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -2447,7 +2446,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: ccedilla.flip
-Encoding: 65573 -1 51
+Encoding: 65555 -1 51
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -2501,7 +2500,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: ccaron.flip
-Encoding: 65574 -1 52
+Encoding: 65556 -1 52
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -2553,7 +2552,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: lcedilla.flip
-Encoding: 65575 -1 53
+Encoding: 65557 -1 53
 Width: 896
 Flags: HW
 LayerCount: 2
@@ -2600,7 +2599,7 @@ LCarets2: 1 112
 EndChar
 
 StartChar: ncaron.flip
-Encoding: 65576 -1 54
+Encoding: 65558 -1 54
 Width: 768
 Flags: HW
 LayerCount: 2
@@ -2642,7 +2641,7 @@ LCarets2: 1 96
 EndChar
 
 StartChar: rcaron.flip
-Encoding: 65577 -1 55
+Encoding: 65559 -1 55
 Width: 896
 Flags: HW
 LayerCount: 2
@@ -2693,7 +2692,7 @@ LCarets2: 1 112
 EndChar
 
 StartChar: scaron.flip
-Encoding: 65578 -1 56
+Encoding: 65560 -1 56
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -2741,7 +2740,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: tcedilla.flip
-Encoding: 65579 -1 57
+Encoding: 65561 -1 57
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -2791,7 +2790,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: zdotaccent.flip
-Encoding: 65580 -1 58
+Encoding: 65562 -1 58
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -2835,7 +2834,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: zcaron.flip
-Encoding: 65581 -1 59
+Encoding: 65563 -1 59
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -2889,7 +2888,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: esh.flip
-Encoding: 65582 -1 60
+Encoding: 65564 -1 60
 Width: 896
 Flags: HW
 LayerCount: 2
@@ -2949,7 +2948,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ddotbelow.flip
-Encoding: 65583 -1 61
+Encoding: 65565 -1 61
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -3004,7 +3003,7 @@ LCarets2: 1 128
 EndChar
 
 StartChar: backslash.flip
-Encoding: 65597 -1 62
+Encoding: 65566 -1 62
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -3276,7 +3275,7 @@ Validated: 5
 EndChar
 
 StartChar: .notdef
-Encoding: 65665 -1 68
+Encoding: 65567 -1 68
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -3343,7 +3342,7 @@ Validated: 5
 EndChar
 
 StartChar: nonmarkingreturn
-Encoding: 65666 -1 69
+Encoding: 65568 -1 69
 Width: 0
 Flags: HW
 LayerCount: 2
@@ -3352,7 +3351,7 @@ Validated: 1
 EndChar
 
 StartChar: colon.flip
-Encoding: 65930 -1 70
+Encoding: 65569 -1 70
 Width: 1024
 Flags: H
 LayerCount: 2
@@ -4021,6 +4020,440 @@ SplineSet
  640 384 l 1
  640 256 l 1
  640 128 l 1
+EndSplineSet
+EndChar
+
+StartChar: adieresis_i
+Encoding: 65570 -1 94
+Width: 1024
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+256 384 m 1
+ 384 384 l 1
+ 512 384 l 1
+ 640 384 l 1
+ 768 384 l 1
+ 768 512 l 1
+ 768 640 l 1
+ 640 640 l 1
+ 640 512 l 1
+ 512 512 l 1
+ 384 512 l 1
+ 256 512 l 1
+ 256 384 l 1
+384 768 m 1
+ 512 768 l 1
+ 512 896 l 1
+ 384 896 l 1
+ 384 768 l 1
+512 640 m 1
+ 640 640 l 1
+ 640 768 l 1
+ 512 768 l 1
+ 512 640 l 1
+EndSplineSet
+Ligature2: "VowelLigature subtable" i adieresis
+Ligature2: "VowelLigature subtable" adieresis i
+EndChar
+
+StartChar: a_ograve
+Encoding: 65571 -1 95
+Width: 1024
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+128 512 m 1
+ 256 512 l 1
+ 256 640 l 1
+ 128 640 l 1
+ 128 512 l 1
+256 384 m 1
+ 384 384 l 1
+ 512 384 l 1
+ 640 384 l 1
+ 640 512 l 1
+ 512 512 l 1
+ 384 512 l 1
+ 256 512 l 1
+ 256 384 l 1
+384 640 m 1
+ 512 640 l 1
+ 512 768 l 1
+ 384 768 l 1
+ 384 640 l 1
+640 512 m 1
+ 768 512 l 1
+ 768 640 l 1
+ 640 640 l 1
+ 640 512 l 1
+EndSplineSet
+Ligature2: "VowelLigature subtable" ograve a
+Ligature2: "VowelLigature subtable" a ograve
+EndChar
+
+StartChar: a_oacute
+Encoding: 65572 -1 96
+Width: 1152
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+128 512 m 1
+ 256 512 l 1
+ 256 640 l 1
+ 128 640 l 1
+ 128 512 l 1
+256 640 m 1
+ 384 640 l 1
+ 512 640 l 1
+ 640 640 l 1
+ 640 768 l 1
+ 512 768 l 1
+ 384 768 l 1
+ 256 768 l 1
+ 256 640 l 1
+384 384 m 1
+ 512 384 l 1
+ 512 512 l 1
+ 384 512 l 1
+ 384 384 l 1
+640 512 m 1
+ 768 512 l 1
+ 768 640 l 1
+ 640 640 l 1
+ 640 512 l 1
+EndSplineSet
+Ligature2: "VowelLigature subtable" oacute a
+Ligature2: "VowelLigature subtable" a oacute
+EndChar
+
+StartChar: a
+Encoding: 97 97 97
+Width: 1024
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+384 384 m 1
+ 512 384 l 1
+ 640 384 l 1
+ 640 512 l 1
+ 640 640 l 1
+ 512 640 l 1
+ 384 640 l 1
+ 384 512 l 1
+ 384 384 l 1
+EndSplineSet
+EndChar
+
+StartChar: e
+Encoding: 101 101 98
+Width: 1024
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+256 384 m 1
+ 384 384 l 1
+ 512 384 l 1
+ 640 384 l 1
+ 640 256 l 1
+ 768 256 l 1
+ 768 384 l 1
+ 768 512 l 1
+ 640 512 l 1
+ 512 512 l 1
+ 384 512 l 1
+ 256 512 l 1
+ 256 384 l 1
+EndSplineSet
+EndChar
+
+StartChar: i
+Encoding: 105 105 99
+Width: 1024
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+256 640 m 1
+ 384 640 l 1
+ 384 768 l 1
+ 256 768 l 1
+ 256 640 l 1
+384 512 m 1
+ 512 512 l 1
+ 512 640 l 1
+ 384 640 l 1
+ 384 512 l 1
+512 384 m 1
+ 640 384 l 1
+ 640 512 l 1
+ 512 512 l 1
+ 512 384 l 1
+640 256 m 1
+ 768 256 l 1
+ 768 384 l 1
+ 640 384 l 1
+ 640 256 l 1
+EndSplineSet
+EndChar
+
+StartChar: o
+Encoding: 111 111 100
+Width: 1024
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+256 640 m 1
+ 384 640 l 1
+ 512 640 l 1
+ 640 640 l 1
+ 640 768 l 1
+ 512 768 l 1
+ 384 768 l 1
+ 256 768 l 1
+ 256 640 l 1
+640 256 m 1
+ 768 256 l 1
+ 768 384 l 1
+ 768 512 l 1
+ 768 640 l 1
+ 640 640 l 1
+ 640 512 l 1
+ 640 384 l 1
+ 640 256 l 1
+EndSplineSet
+EndChar
+
+StartChar: u
+Encoding: 117 117 101
+Width: 1024
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+512 256 m 1
+ 640 256 l 1
+ 768 256 l 1
+ 768 384 l 1
+ 640 384 l 1
+ 640 512 l 1
+ 640 640 l 1
+ 640 768 l 1
+ 512 768 l 1
+ 512 640 l 1
+ 512 512 l 1
+ 512 384 l 1
+ 512 256 l 1
+EndSplineSet
+EndChar
+
+StartChar: adieresis
+Encoding: 228 228 102
+Width: 1024
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+256 384 m 1
+ 384 384 l 1
+ 512 384 l 1
+ 640 384 l 1
+ 768 384 l 1
+ 768 512 l 1
+ 640 512 l 1
+ 512 512 l 1
+ 384 512 l 1
+ 256 512 l 1
+ 256 384 l 1
+EndSplineSet
+EndChar
+
+StartChar: edieresis
+Encoding: 235 235 103
+Width: 1024
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+256 384 m 1
+ 384 384 l 1
+ 512 384 l 1
+ 640 384 l 1
+ 768 384 l 1
+ 768 512 l 1
+ 640 512 l 1
+ 512 512 l 1
+ 384 512 l 1
+ 384 640 l 1
+ 256 640 l 1
+ 256 512 l 1
+ 256 384 l 1
+EndSplineSet
+EndChar
+
+StartChar: udieresis
+Encoding: 252 252 104
+Width: 1024
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+384 640 m 1
+ 512 640 l 1
+ 512 512 l 1
+ 512 384 l 1
+ 512 256 l 1
+ 640 256 l 1
+ 640 384 l 1
+ 640 512 l 1
+ 640 640 l 1
+ 640 768 l 1
+ 512 768 l 1
+ 384 768 l 1
+ 384 640 l 1
+EndSplineSet
+EndChar
+
+StartChar: odieresis
+Encoding: 246 246 105
+Width: 1024
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+256 384 m 1
+ 384 384 l 1
+ 384 512 l 1
+ 384 640 l 1
+ 384 768 l 1
+ 256 768 l 1
+ 256 640 l 1
+ 256 512 l 1
+ 256 384 l 1
+384 256 m 1
+ 512 256 l 1
+ 640 256 l 1
+ 768 256 l 1
+ 768 384 l 1
+ 640 384 l 1
+ 512 384 l 1
+ 384 384 l 1
+ 384 256 l 1
+EndSplineSet
+EndChar
+
+StartChar: idieresis
+Encoding: 239 239 106
+Width: 1024
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+512 256 m 1
+ 640 256 l 1
+ 640 384 l 1
+ 640 512 l 1
+ 640 640 l 1
+ 640 768 l 1
+ 512 768 l 1
+ 512 640 l 1
+ 512 512 l 1
+ 512 384 l 1
+ 512 256 l 1
+EndSplineSet
+EndChar
+
+StartChar: ograve
+Encoding: 242 242 107
+Width: 1152
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+128 512 m 1
+ 256 512 l 1
+ 256 640 l 1
+ 128 640 l 1
+ 128 512 l 1
+256 384 m 1
+ 384 384 l 1
+ 512 384 l 1
+ 640 384 l 1
+ 640 512 l 1
+ 512 512 l 1
+ 384 512 l 1
+ 256 512 l 1
+ 256 384 l 1
+640 512 m 1
+ 768 512 l 1
+ 768 640 l 1
+ 640 640 l 1
+ 640 512 l 1
+EndSplineSet
+EndChar
+
+StartChar: oacute
+Encoding: 243 243 108
+Width: 1152
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+128 512 m 1
+ 256 512 l 1
+ 256 640 l 1
+ 128 640 l 1
+ 128 512 l 1
+256 640 m 1
+ 384 640 l 1
+ 512 640 l 1
+ 640 640 l 1
+ 640 768 l 1
+ 512 768 l 1
+ 384 768 l 1
+ 256 768 l 1
+ 256 640 l 1
+640 512 m 1
+ 768 512 l 1
+ 768 640 l 1
+ 640 640 l 1
+ 640 512 l 1
+EndSplineSet
+EndChar
+
+StartChar: ohungarumlaut
+Encoding: 337 337 109
+Width: 1024
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+256 384 m 1
+ 384 384 l 1
+ 384 512 l 1
+ 384 640 l 1
+ 384 768 l 1
+ 256 768 l 1
+ 256 640 l 1
+ 256 512 l 1
+ 256 384 l 1
+384 256 m 1
+ 512 256 l 1
+ 640 256 l 1
+ 640 128 l 1
+ 768 128 l 1
+ 768 256 l 1
+ 768 384 l 1
+ 640 384 l 1
+ 512 384 l 1
+ 384 384 l 1
+ 384 256 l 1
 EndSplineSet
 EndChar
 EndChars
