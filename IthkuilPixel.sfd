@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1676795389
-ModificationTime: 1711935556
+ModificationTime: 1767239126
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -43,10 +43,11 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 OS2CodePages: 00000000.00000000
 OS2UnicodeRanges: 00000000.00000000.00000000.00000000
-Lookup: 6 0 0 "OneQuote" { "OneQuote subtable"  } ['liga' ('grek' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "OneQuote" { "OneQuote subtable"  } ['ccmp' ('grek' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 1" { "Single Substitution lookup 1 subtable"  } []
-Lookup: 4 0 1 "FlipCores" { "FlipCores subtable"  } ['liga' ('grek' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 4 0 1 "VowelLigature" { "VowelLigature subtable"  } ['liga' ('grek' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Allographs" { "Allographs subtable"  } ['ccmp' ('grek' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 0 "FlipCores" { "FlipCores subtable"  } ['ccmp' ('grek' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 0 "VowelLigature" { "VowelLigature subtable"  } ['ccmp' ('grek' <'dflt' > 'latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "OneQuote subtable" 0 0 0 1
@@ -63,12 +64,12 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 15 15 6
+WinInfo: 0 20 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Tertiary_mkmk"""  "Tertiary_down"""  "Tertiary_up"""  "Diacritic_mkmk"""  "Extension_mkmk"""  "Diacritic_right"""  "Diacritic_left"""  "Extension_down"""  "Extension_up"""  "Perspective"""  "Configurations"""  "Diacritic_down"""  "Diacritic_up"""  "Anchor-1""" 
-BeginChars: 65586 110
+BeginChars: 65586 113
 
 StartChar: RPV.VAR
 Encoding: 65536 -1 0
@@ -1091,6 +1092,7 @@ SplineSet
  512 0 l 1
 EndSplineSet
 Validated: 5
+Substitution2: "Allographs subtable" tcedilla
 EndChar
 
 StartChar: scaron
@@ -1271,6 +1273,7 @@ SplineSet
  640 0 l 1
 EndSplineSet
 Validated: 5
+Substitution2: "Allographs subtable" lcedilla
 EndChar
 
 StartChar: ccedilla
@@ -3264,6 +3267,7 @@ SplineSet
  512 0 l 1
 EndSplineSet
 Validated: 5
+Substitution2: "Allographs subtable" ddotbelow
 EndChar
 
 StartChar: .notdef
@@ -4074,9 +4078,9 @@ SplineSet
  640 640 l 1
  640 512 l 1
 EndSplineSet
-LCarets2: 1 0
 Ligature2: "VowelLigature subtable" ograve a
 Ligature2: "VowelLigature subtable" a ograve
+LCarets2: 1 0
 EndChar
 
 StartChar: a_oacute
@@ -4436,6 +4440,152 @@ SplineSet
  384 384 l 1
  384 256 l 1
 EndSplineSet
+EndChar
+
+StartChar: dcedilla
+Encoding: 7697 7697 110
+Width: 1024
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+128 128 m 1
+ 256 128 l 1
+ 256 256 l 1
+ 128 256 l 1
+ 128 128 l 1
+128 384 m 1
+ 256 384 l 1
+ 256 512 l 1
+ 256 640 l 1
+ 256 768 l 1
+ 128 768 l 1
+ 128 640 l 1
+ 128 512 l 1
+ 128 384 l 1
+256 256 m 1
+ 384 256 l 1
+ 384 384 l 1
+ 256 384 l 1
+ 256 256 l 1
+256 768 m 1
+ 384 768 l 1
+ 512 768 l 1
+ 640 768 l 1
+ 768 768 l 1
+ 896 768 l 1
+ 896 896 l 1
+ 768 896 l 1
+ 640 896 l 1
+ 512 896 l 1
+ 384 896 l 1
+ 256 896 l 1
+ 256 768 l 1
+384 128 m 1
+ 512 128 l 1
+ 512 256 l 1
+ 384 256 l 1
+ 384 128 l 1
+512 0 m 1
+ 640 0 l 1
+ 640 128 l 1
+ 512 128 l 1
+ 512 0 l 1
+EndSplineSet
+Substitution2: "Allographs subtable" ddotbelow
+EndChar
+
+StartChar: tdotbelow
+Encoding: 7789 7789 111
+Width: 1024
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+128 384 m 1
+ 256 384 l 1
+ 256 512 l 1
+ 256 640 l 1
+ 256 768 l 1
+ 128 768 l 1
+ 128 640 l 1
+ 128 512 l 1
+ 128 384 l 1
+256 256 m 1
+ 384 256 l 1
+ 384 384 l 1
+ 256 384 l 1
+ 256 256 l 1
+256 768 m 1
+ 384 768 l 1
+ 512 768 l 1
+ 640 768 l 1
+ 768 768 l 1
+ 896 768 l 1
+ 896 896 l 1
+ 768 896 l 1
+ 640 896 l 1
+ 512 896 l 1
+ 384 896 l 1
+ 256 896 l 1
+ 256 768 l 1
+384 128 m 1
+ 512 128 l 1
+ 512 256 l 1
+ 384 256 l 1
+ 384 128 l 1
+512 0 m 1
+ 640 0 l 1
+ 640 128 l 1
+ 512 128 l 1
+ 512 0 l 1
+EndSplineSet
+Substitution2: "Allographs subtable" tcedilla
+EndChar
+
+StartChar: ldotbelow
+Encoding: 7735 7735 112
+Width: 896
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+128 512 m 1
+ 256 512 l 1
+ 256 640 l 1
+ 256 768 l 1
+ 256 896 l 1
+ 128 896 l 1
+ 128 768 l 1
+ 128 640 l 1
+ 128 512 l 1
+256 384 m 1
+ 384 384 l 1
+ 384 512 l 1
+ 256 512 l 1
+ 256 384 l 1
+384 256 m 1
+ 512 256 l 1
+ 512 384 l 1
+ 384 384 l 1
+ 384 256 l 1
+512 128 m 1
+ 640 128 l 1
+ 640 256 l 1
+ 512 256 l 1
+ 512 128 l 1
+512 384 m 1
+ 640 384 l 1
+ 640 512 l 1
+ 512 512 l 1
+ 512 384 l 1
+640 0 m 1
+ 768 0 l 1
+ 768 128 l 1
+ 640 128 l 1
+ 640 0 l 1
+EndSplineSet
+Substitution2: "Allographs subtable" lcedilla
 EndChar
 EndChars
 EndSplineFont
